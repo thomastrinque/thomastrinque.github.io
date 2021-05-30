@@ -1,0 +1,172 @@
+@import "loaders.css/src/animations/ball-spin-fade-loader.scss";
+
+body {
+  font-family: "Montserrat", sans-serif !important;
+  height: unset !important;
+  background-color: #2b85d052 !important;
+}
+
+.App {
+  width: 90%;
+  margin: auto;
+  padding-bottom: 10vh;
+}
+
+h1 {
+  margin-top: 4rem !important;
+}
+
+table {
+  border: 1px solid black;
+  margin: auto;
+  border-radius: 5px;
+}
+
+ul {
+  margin-block-start: unset;
+}
+
+.dropdown-container {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  padding: 3rem 0rem 1rem;
+  grid-gap: 1rem;
+  @media screen and (max-width: 530px) {
+    grid-template-columns: 1fr;
+  }
+  @media screen and (min-width: 531px) and (max-width: 1000px) {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+.ui.menu:not(.vertical) .item {
+  flex: 1;
+}
+
+i.dropdown.icon {
+  display: flex;
+  flex: 1;
+  justify-content: flex-end;
+}
+
+.refresh-img {
+  height: 1rem;
+  fill: blue;
+}
+
+.ui.table {
+  margin: auto !important;
+}
+
+// @media (min-width: 320px) {
+//   table {
+//     display: block;
+//   }
+// }
+// @media (min-width: 960px) {
+//   table {
+//     display: table;
+//   }
+// }
+
+.loader-hidden {
+  display: none;
+}
+.loader-active {
+  display: flex;
+  margin: auto;
+  width: fit-content;
+}
+
+.ball-spin-fade-loader > div {
+  background-color: #6580e3 !important;
+}
+
+.dropdown-container-time {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  padding: 1rem 0rem;
+  grid-gap: 1rem;
+}
+
+.search-all {
+  justify-self: end;
+}
+
+.tr-no-matching {
+  text-align: center;
+  padding: 3rem;
+  display: block;
+}
+
+.blue {
+  background-color: rgb(224, 224, 224);
+  color: black;
+}
+
+.grey {
+  background-color: rgb(255, 255, 153);
+  color: black;
+}
+
+a {
+  color: black !important;
+}
+// .white {
+//   color: white;
+// }
+
+// .black {
+//   color: black;
+// }
+
+.pagination-marge {
+  padding-bottom: 3vh;
+  display: block;
+}
+
+.red-logout {
+  display: block !important;
+  margin-left: auto !important;
+}
+
+.mt-login {
+  margin-top: 10vh !important;
+}
+
+.login-title {
+  text-align: center;
+  margin-bottom: 5vh;
+  font-size: 5vh;
+}
+
+input {
+  border-radius: 5px;
+  display: block;
+  box-shadow: #5866c27a 3px 4px 8px 0px;
+}
+
+.btn-login {
+  box-shadow: #5866c27a 3px 4px 8px 0px;
+  background: #4074a9 !important;
+  color: white !important;
+}
+
+.list-users {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 1vh;
+}
+
+.ul-mt {
+  padding-inline-start: inherit;
+  max-width: 450px;
+  margin: 60px auto;
+}

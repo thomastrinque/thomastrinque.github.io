@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/bet/static/css/main.e6db22dd.chunk.css",
+    "main.js": "/bet/static/js/main.6c1f30ff.chunk.js",
+    "main.js.map": "/bet/static/js/main.6c1f30ff.chunk.js.map",
+    "runtime-main.js": "/bet/static/js/runtime-main.d9f87587.js",
+    "runtime-main.js.map": "/bet/static/js/runtime-main.d9f87587.js.map",
+    "static/css/2.6966f163.chunk.css": "/bet/static/css/2.6966f163.chunk.css",
+    "static/js/2.ca5e0a52.chunk.js": "/bet/static/js/2.ca5e0a52.chunk.js",
+    "static/js/2.ca5e0a52.chunk.js.map": "/bet/static/js/2.ca5e0a52.chunk.js.map",
+    "index.html": "/bet/index.html",
+    "precache-manifest.20b6e585ae832d5da6f2d14a21d45f09.js": "/bet/precache-manifest.20b6e585ae832d5da6f2d14a21d45f09.js",
+    "service-worker.js": "/bet/service-worker.js",
+    "static/css/2.6966f163.chunk.css.map": "/bet/static/css/2.6966f163.chunk.css.map",
+    "static/css/main.e6db22dd.chunk.css.map": "/bet/static/css/main.e6db22dd.chunk.css.map",
+    "static/js/2.ca5e0a52.chunk.js.LICENSE.txt": "/bet/static/js/2.ca5e0a52.chunk.js.LICENSE.txt",
+    "static/media/semantic.min.css": "/bet/static/media/outline-icons.ef60a4f6.woff"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.d9f87587.js",
+    "static/css/2.6966f163.chunk.css",
+    "static/js/2.ca5e0a52.chunk.js",
+    "static/css/main.e6db22dd.chunk.css",
+    "static/js/main.6c1f30ff.chunk.js"
+  ]
+}
